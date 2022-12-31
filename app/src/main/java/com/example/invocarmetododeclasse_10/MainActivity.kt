@@ -35,10 +35,10 @@ class MainActivity : AppCompatActivity() {
         Log.d("ResultadoAAC ", resultado003.toString())
         // txtViewUm.text = "ResultadoAAC = $resultado003"
 
-//        val somar004 = ClasseSomar004()
-//        val resultado004 = somar004.funcaoSomar004(501)
-//        Log.d("ResultadoAAD ", resultado004.toString())
-//        txtViewUm.text = "ResultadoAAD = $resultado004"
+        val somar004 = ClasseSomar004()
+        val resultado004 = somar004.textView
+        Log.d("ResultadoAAD ", resultado004.toString())
+        txtViewUm.text = "ResultadoAAD = ${resultado004.text}"
     }
 
     private fun declararVariaveis() {
